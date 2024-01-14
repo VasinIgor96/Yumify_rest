@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,800;1,500;1,600;1,800&display=swap');
+* {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(img/fon2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+.fon_1 {
+    background-image: url(img/fon_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+.fon_12343 {
+    background-image: url(img/12343.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.header {
+    display: flex;  
+}
+
+.logo img {
+    width: 100px;
+    margin: 10px 0 0 10px;
+}
+
+.btn, .btn_ins {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.img_user {
+    width: 60px;
+    margin-top: 30px;
+}
+
+.img_user_block {
+    width: 120px;
+}
+
+a {
+    color: #b38b07;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.menu ul {
+    margin: 45px 0 0 750px;
+    width: 600px;
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.btn img {
+    width: 60px;
+    margin: 20px 0 10px 0;
+}
+
+.login:hover {
+    color: rgba(255, 238, 7, 0.932);
+}
+.menu a:hover {
+    color: rgba(255, 238, 7, 0.932);
+}
+
+h1, .forms h1 {
+    margin-top: 40px;
+    color: #b38b07;
+}
+
+.btn img:hover {
+    transform: scale(1.4);
+    transition: transform 0.5s ease-in-out;
+}
+
+.main_form {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: #4f4f4fc5;
+    display: static;
+    flex-direction: row;
+    color: #b38b07;
+    width: 800px;
+    font-family: 'Sacramento', serif;
+    margin: 120px 0;
+    border-radius: 10px;
+    background-color: #4f4f4fc5;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.hr {
+    margin: 10px 0;
+}
+
+.main_form input {
+    font-size: 18px;
+    margin: 20px 0;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hr_contact {
+    border-top: 3px solid bisque;
+    size: 5px;
+    color: bisque;
+}
+
+.form_input {
+    display: flex;
+    justify-content: center;
+}
+
+ul img {
+    width: 30px;
+}
+
+
+.button_del {
+    background-color: #5e5e5ebe;
+    border: none;
+    font-family: 'Sacramento', cursive;
+    width: 600px;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 6px #000000;
+    cursor: pointer;
+}
+
+.button_del a{
+    color: #b38b07;
+    text-decoration: none;
+}
+
+button a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button_del:hover {
+    background-color: rgba(255, 228, 196, 0.5);
+}
+.button_del a:hover {
+    color: #444444;
+}
+
+.button_del:active {
+    background-color: rgba(34, 92, 16, 0.459);
+}
+.button_del a:active {
+    color: black;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contacts li, .info {
+    font-size: 24px;
+    list-style: none;
+    margin: 10px 80px 10px 0;
+    text-align: start;
+}
+
+.contacts img {
+    margin-top: -5px;
+}
+
+.contacts img:hover {
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
+.info {
+    padding-left: 70px;
+}
+
+.info_2 {
+    display: flex;   
+}
+
+.info_2 li {
+    margin-left: 40px;
+}
+
+.form_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_info {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_info_block {
+    display: flex;
+    justify-content: center;
+}
+
+.img_info_2 {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_info img {
+    margin: 20px 0;
+    width: 52px;
+}
+
+.img_info_2 a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_info_2 a:hover {
+    transform: scale(1.4);
+    transform-origin: center center;
+}
+
+.logo a:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-container iframe {
+    width: 100%; 
+    height: 800px; 
+    border: none; 
+}
+
+.menu ul li a {
+    color: #b38b07;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: bisque;
+    text-decoration: none;
+}
+.text_h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #b38b07;
+    font-family: 'EB Garamond', serif;
+}
+
+.text_h3 {
+    text-align: center;
+    color: bisque;
+}
+
+.carousel {
+    width: 1800px;
+}
+
+.carousel img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.carousel_block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_p {
+    color: #b38b07;
+}
+
+.text_p a:hover {
+    color: bisque;
+}
+
+.left_text a:hover {
+    color: bisque;
+}
+
+.text_p a {
+    text-decoration: none;
+    color: #b38b07;
+}
+
+.hr_bottom {
+    color: bisque;
+}
+
+.flo_clock {
+    display: flex;
+    justify-content: center;
+}
+
+.block_info_bottom {
+    background-color: #4f4f4f85;
+    border-radius: 10px;
+    box-shadow: 7px 14px 15px -3px rgba(0, 0, 0, 0.8);
+    width: 400px;
+}
+
+.block_info_bottom h4 {
+    font-size: 28px;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.clock {
+    text-align: center;
+    padding: 0 0 10px 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.flo_clock img {
+    margin-top: 5px;
+    width: 52px;
+    height: 52px;
+}
+
+.flo_bottom {
+    width: 1400px;
+    margin: 50px 0 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.developer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.information {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a img {
+    width: 42px;
+    padding-right: 10px;
+}
+
+.left_text, .left_text a {
+    text-decoration: none;
+    color: #b38b07;
+}
+
+.icon_img {
+    width: 36px;
+}
+
+.form_center_policy {
+    margin-top: 300px;
+    margin-bottom: 280px;
+}
+.btn_loading {
+    color: #444444;
+}
+button .btn {
+    width: 200px; 
+}

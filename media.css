@@ -1,0 +1,422 @@
+@media screen  and (max-width: 1200px) {
+ .menu ul {
+    margin: 45px 0 0 400px;
+    width: 500px;
+ }
+
+ .img_user_block {
+    width: 70px;
+    margin-left: 30px;
+}
+
+ .btn img {
+    width: 60px;
+    margin: 30px 0 10px 0;
+}
+
+.qwer_2 {
+    margin-top: 20px;
+}
+
+.block_info_bottom {
+    width: 350px;
+}
+
+.flo_bottom {
+    width: 1100px;
+    margin: 50px 0 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.button_zr {
+    width: 100%;
+    margin-left: 0;
+}
+
+}
+
+@media screen  and (max-width: 992px) {
+    .menu ul {
+        margin: 45px 0 0 200px;
+        width: 500px;
+     }
+    
+     .btn img {
+        width: 60px;
+        margin: 30px 0 10px 0;
+    }
+
+    .img_user_block {
+        width: 70px;
+    }
+
+    .menu_food {
+        margin-left: 50px;
+    }
+
+    .input_box {
+        width: 400px;
+    }
+    .box_center_box_center {
+        display: flex;
+        justify-content: center;
+    }
+    .box_center_box {
+        width: 400px;
+    }
+    
+    .qwer_2 {
+        margin-top: 20px;
+    }
+    
+    .block_info_bottom {
+        width: 280px;
+    }
+    
+    .flo_bottom {
+        width: 850px;
+        margin: 50px 0 0;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .flo_clock .mail_img {
+        margin-left: 10px;
+    }
+
+    .mail_p {
+        margin-left: -10px;
+    }
+
+}
+
+@media screen  and (max-width: 768px) {
+    .logo img {
+        width: 80px;
+        margin: 10px 0 0 10px;
+    }
+
+
+    .menu ul {
+        font-size: 21px;
+        margin: 30px 0 0 40px;
+        width: 500px;
+     }
+    
+     .btn img, .img_user {
+        width: 40px;
+        margin: 20px 0 10px 0;
+    }
+
+    .menu_food, .menu_food ul {
+        margin: 0;
+    }
+
+    .menu_food li {
+        width: 110px;
+        display: flex; 
+    }
+
+    .menu_food_block {
+        margin-top: 10x;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .menu-container {
+        margin-top: 30px;
+    }
+
+    .menu_food a {
+        font-size: 28px;
+    }
+    
+    .qwer_2 {
+        font-size: 30px;
+    }
+
+    .text_h3 {
+        font-size: 18px;
+    }
+    
+    .block_info_bottom {
+        width: 210px;
+    }
+    
+    .flo_bottom {
+        width: 650px;
+        font-size: 12px;
+        margin: 50px 0 0;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .flo_clock img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .clock {
+        font-size: 12px;
+    }
+    
+    .block_info_bottom h4 {
+        font-size: 21px;
+    }
+
+    .form {
+        color:bisque;
+        width: 650px;
+        padding: 30px 0;
+    }
+
+    .box_center_box {
+        width: 400px;
+    }
+
+    .contacts li{
+        font-size: 17px;
+    }
+
+    .form h1 {
+        color: #b38b07;
+        font-size: 28px;
+    }
+
+    .form h2 {
+        color: bisque;
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+    .img_info img {
+        margin: 20px 0;
+        width: 42px;
+    }
+
+    .main_form {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .main_form input {
+       
+        font-size: 18px;
+        margin: 20px 0;
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .form_input {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button_del {
+        width: 400px;
+        margin: 10px 0;
+        padding: 5px 0;
+        font-size: 22px;
+    }
+
+    .img_info_1 {
+        margin-left: 10px;
+        margin-right: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .img_info_2 {
+        margin-left: 0;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        margin: 150px 170px;
+    }
+    
+    .forms {
+        background-color: #4f4f4fc5;
+        width: 500px;
+        font-size: 18px;
+
+    }
+ 
+    .forms h1 {
+        font-size: 28x;
+    }
+
+    input {
+        font-size: 14px;
+        margin-bottom: 10px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .input_box {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .checkbox {
+        margin-left: 20px;
+        display: flex;   
+    }
+
+    .checkbox p {
+        margin-top: 25px;
+    }
+
+
+     .box_mail {
+        margin-left: 40px;
+     }
+     
+    .button {
+        width: 360px;
+        margin-left: 20px;
+    }
+
+    .button_button {
+        margin-left: 20px;
+    }
+
+    .fp {
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen  and (max-width: 576px) {
+    
+    .dropdown {
+        display: block;
+        margin: 20px 10px 0 180px;
+    }
+
+    .dropdown button {
+        background-color: #b38b07;
+        color: #5e5e5ef5;
+        font-weight: 700;
+    }
+
+    .dropdown button:hover {
+        background-color: #5e5e5ef5;
+        color: #b38b07;
+    }
+
+    .dropdown ul {
+        background-color: #5e5e5ed5;  
+    }
+
+    .dropdown-menu {
+        width: 5px;
+    }
+
+    .img_user_block {
+        margin: 0 0 0 20px;
+    }
+
+    .btn a {
+        margin-top: -10px;
+    }
+
+    .dropdown a {
+        color: #b38b07;
+    }
+
+    .dropdown a:hover {
+        background-color: bisque;
+        color: #5e5e5e;
+        font-weight: 900;
+    }
+
+    .menu {
+        display: none;
+    }
+
+.developer .d_none {
+    display: none;
+}
+
+.information {
+    display: block;
+    margin-left: 113px;
+}
+
+.block_info_bottom {
+    width: 350px;
+    margin-top: 20px;
+}
+
+.flo_img img {
+    margin-right: 20px;
+}
+
+.d_activ {
+    margin-left: 170px;
+}
+
+.menu_food_block ul {
+    width: 480px;
+}
+
+.menu_food a {
+    font-size: 24px;
+}
+
+.form {
+    width: 520px;
+}
+
+.contacts li{
+    font-size: 14px;
+}
+
+.img_info img {
+    margin: 20px 0;
+    width: 40px;
+}
+
+.info a {
+    display: none;
+}
+
+.flo_bottom {
+    width: 576px;
+}
+.main_form input {
+    width: 500px;
+}
+
+.input_box_center {
+    width: 90%;
+}
+
+.button_st {
+    width: 90%;
+    margin-left: 20px;
+}
+
+}
